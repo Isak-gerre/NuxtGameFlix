@@ -1,35 +1,35 @@
-import process from 'node:process';globalThis._importMeta_={url:import.meta.url,env:process.env};import { getRequestHeader, splitCookiesString, setResponseStatus, setResponseHeader, send, getRequestHeaders, defineEventHandler, handleCacheHeaders, createEvent, fetchWithEvent, isEvent, eventHandler, getResponseStatus, setResponseHeaders, setHeaders, sendRedirect, proxyRequest, createError, getQuery as getQuery$1, getRequestURL, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getRouterParam, readBody, getResponseStatusText } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/h3/dist/index.mjs';
+import process from 'node:process';globalThis._importMeta_={url:import.meta.url,env:process.env};import { getRequestHeader, splitCookiesString, setResponseStatus, setResponseHeader, send, getRequestHeaders, defineEventHandler, handleCacheHeaders, createEvent, fetchWithEvent, isEvent, eventHandler, getResponseStatus, setResponseHeaders, setHeaders, sendRedirect, proxyRequest, createError, getQuery as getQuery$1, getRequestURL, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getRouterParam, readBody, getResponseStatusText } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/h3/dist/index.mjs';
 import { Server } from 'node:http';
 import { mkdirSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { parentPort, threadId } from 'node:worker_threads';
-import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { stringify, uneval } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/devalue/index.js';
-import destr from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/destr/dist/index.mjs';
-import { withQuery, joinURL, withTrailingSlash, parseURL, withoutBase, getQuery, joinRelativeURL } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/ufo/dist/index.mjs';
-import { renderToString } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/vue/server-renderer/index.mjs';
-import { propsToString, renderSSRHead } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/@unhead/ssr/dist/index.mjs';
-import { createHooks } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/hookable/dist/index.mjs';
-import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/ofetch/dist/node.mjs';
-import { createCall, createFetch } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/unenv/runtime/fetch/index.mjs';
-import { klona } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/defu/dist/defu.mjs';
-import { snakeCase } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/scule/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/unstorage/drivers/fs.mjs';
-import { toRouteMatcher, createRouter } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/radix3/dist/index.mjs';
-import { getContext } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/unctx/dist/index.mjs';
+import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { stringify, uneval } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/devalue/index.js';
+import destr from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/destr/dist/index.mjs';
+import { withQuery, joinURL, withTrailingSlash, parseURL, withoutBase, getQuery, joinRelativeURL } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/ufo/dist/index.mjs';
+import { renderToString } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/vue/server-renderer/index.mjs';
+import { propsToString, renderSSRHead } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/@unhead/ssr/dist/index.mjs';
+import { createHooks } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/hookable/dist/index.mjs';
+import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/ofetch/dist/node.mjs';
+import { createCall, createFetch } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/unenv/runtime/fetch/index.mjs';
+import { klona } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/defu/dist/defu.mjs';
+import { snakeCase } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/scule/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/unstorage/drivers/fs.mjs';
+import { toRouteMatcher, createRouter } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/radix3/dist/index.mjs';
+import { getContext } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/unctx/dist/index.mjs';
 import { AsyncLocalStorage } from 'node:async_hooks';
-import { consola } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/consola/dist/index.mjs';
-import { captureRawStackTrace, parseRawStackTrace } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/errx/dist/index.js';
-import { isVNode, version, unref } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/vue/index.mjs';
-import { basename } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/pathe/dist/index.mjs';
-import { getIcons } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/@iconify/utils/lib/index.mjs';
-import { hash } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/ohash/dist/index.mjs';
-import { collections } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/.nuxt/nuxt-icon-server-bundle.mjs';
-import { createServerHead as createServerHead$1, CapoPlugin } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/unhead/dist/index.mjs';
-import { defineHeadPlugin } from 'file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/@unhead/shared/dist/index.mjs';
+import { consola } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/consola/dist/index.mjs';
+import { captureRawStackTrace, parseRawStackTrace } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/errx/dist/index.js';
+import { isVNode, version, unref } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/vue/index.mjs';
+import { basename } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/pathe/dist/index.mjs';
+import { getIcons } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/@iconify/utils/lib/index.mjs';
+import { hash } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/ohash/dist/index.mjs';
+import { collections } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/.nuxt/nuxt-icon-server-bundle.mjs';
+import { createServerHead as createServerHead$1, CapoPlugin } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/unhead/dist/index.mjs';
+import { defineHeadPlugin } from 'file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/@unhead/shared/dist/index.mjs';
 
 function hasReqHeader(event, name, includes) {
   const value = getRequestHeader(event, name);
@@ -175,13 +175,13 @@ if (!window.__NUXT_DEVTOOLS_TIME_METRIC__) {
 window.__NUXT_DEVTOOLS_TIME_METRIC__.appInit = Date.now()
 `;
 
-const _nqgWLdooLo = (function(nitro) {
+const _mzfpOqg0Fx = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script$1}<\/script>`);
   });
 });
 
-const rootDir = "/Users/isakgerre/Documents/GitHub/YumVault";
+const rootDir = "/Users/isakgerre/Documents/GitHub/NuxtGameFlix";
 
 const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[],"style":[],"script":[],"noscript":[]};
 
@@ -200,7 +200,7 @@ const devReducers = {
   URL: (data) => data instanceof URL ? data.toString() : void 0
 };
 const asyncContext = getContext("nuxt-dev", { asyncContext: true, AsyncLocalStorage });
-const _2hXqayuQp8 = (nitroApp) => {
+const _zUrfaQN8gD = (nitroApp) => {
   const handler = nitroApp.h3App.handler;
   nitroApp.h3App.handler = (event) => {
     return asyncContext.callAsync({ logs: [], event }, () => handler(event));
@@ -271,16 +271,16 @@ function onConsoleLog(callback) {
 
 const script = "\"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"system\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}function u(){if(t.matchMedia&&f(\"\").media!==\"not all\"){for(const o of c)if(f(\":\"+o).matches)return o}return\"light\"}})();function getStorageValue(t,e){switch(t){case\"localStorage\":return window.localStorage.getItem(e);case\"sessionStorage\":return window.sessionStorage.getItem(e);case\"cookie\":return getCookie(e);default:return null}}function getCookie(t){const c=(\"; \"+window.document.cookie).split(\"; \"+t+\"=\");if(c.length===2)return c.pop()?.split(\";\").shift()}";
 
-const _jsuzZ8VYdD = (function(nitro) {
+const _XwMV6lyZIW = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script}<\/script>`);
   });
 });
 
 const plugins = [
-  _nqgWLdooLo,
-_2hXqayuQp8,
-_jsuzZ8VYdD
+  _mzfpOqg0Fx,
+_zUrfaQN8gD,
+_XwMV6lyZIW
 ];
 
 const inlineAppConfig = {
@@ -574,9 +574,9 @@ const _inlineRuntimeConfig = {
     }
   },
   "public": {
-    "apiKey": "5fbe90b9c6mshfc299dae316d4b7p1e405fjsnac11bcaf8c83"
+    "apiKey": "95aa2ca99fce45ecbe45e49f37c4867a"
   },
-  "apiKey": "5fbe90b9c6mshfc299dae316d4b7p1e405fjsnac11bcaf8c83",
+  "apiKey": "95aa2ca99fce45ecbe45e49f37c4867a",
   "icon": {
     "serverKnownCssClasses": []
   }
@@ -630,7 +630,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{"baseName":"server","dir":"/Users/isakgerre/Documents/GitHub/YumVault/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"/Users/isakgerre/Documents/GitHub/NuxtGameFlix/server/assets"}];
 
 const assets = createStorage();
 
@@ -642,11 +642,11 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets);
 
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/isakgerre/Documents/GitHub/YumVault","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/isakgerre/Documents/GitHub/YumVault/server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/isakgerre/Documents/GitHub/YumVault/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/isakgerre/Documents/GitHub/YumVault/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"/Users/isakgerre/Documents/GitHub/YumVault/.data/kv","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/isakgerre/Documents/GitHub/NuxtGameFlix","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/isakgerre/Documents/GitHub/NuxtGameFlix/server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/isakgerre/Documents/GitHub/NuxtGameFlix/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/isakgerre/Documents/GitHub/NuxtGameFlix/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"/Users/isakgerre/Documents/GitHub/NuxtGameFlix/.data/kv","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -1141,7 +1141,7 @@ function publicAssetsURL(...path) {
 
 const warnOnceSet = /* @__PURE__ */ new Set();
 const DEFAULT_ENDPOINT = "https://api.iconify.design";
-const _QQrl8v = defineCachedEventHandler(async (event) => {
+const _MyxJjc = defineCachedEventHandler(async (event) => {
   const url = getRequestURL(event);
   if (!url)
     return createError({ status: 400, message: "Invalid icon request" });
@@ -1199,12 +1199,12 @@ const _QQrl8v = defineCachedEventHandler(async (event) => {
   // 1 week
 });
 
-const _lazy_IaJWd8 = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_uH5Gqc = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_IaJWd8, lazy: true, middleware: false, method: undefined },
-  { route: '/api/_nuxt_icon/:collection', handler: _QQrl8v, lazy: false, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_IaJWd8, lazy: true, middleware: false, method: undefined }
+  { route: '/__nuxt_error', handler: _lazy_uH5Gqc, lazy: true, middleware: false, method: undefined },
+  { route: '/api/_nuxt_icon/:collection', handler: _MyxJjc, lazy: false, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_uH5Gqc, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -1469,8 +1469,8 @@ const renderSSRHeadOptions = {"omitLineBreaks":false};
 
 globalThis.__buildAssetsURL = buildAssetsURL;
 globalThis.__publicAssetsURL = publicAssetsURL;
-const getClientManifest = () => import('file:///Users/isakgerre/Documents/GitHub/YumVault/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
-const getServerEntry = () => import('file:///Users/isakgerre/Documents/GitHub/YumVault/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+const getClientManifest = () => import('file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getServerEntry = () => import('file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
 const getSSRStyles = lazyCachedFunction(() => Promise.resolve().then(function () { return styles$1; }).then((r) => r.default || r));
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();

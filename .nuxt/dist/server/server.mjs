@@ -1,1 +1,1 @@
-export { default } from "file:///Users/isakgerre/Documents/GitHub/YumVault/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
+export { default } from "file:///Users/isakgerre/Documents/GitHub/NuxtGameFlix/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
